@@ -1,0 +1,14 @@
+Source: pi-relay-control
+Section: utils
+Priority: optional
+Maintainer: baboonwatch
+Build-Depends: debhelper-compat (= 13), liblgpio-dev
+Standards-Version: 4.6.0
+
+Package: pi-relay-control
+Architecture: arm64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: GPIO Relay Control for Raspberry Pi 5
+ Controls a relay via GPIO with socket interface and state persistence.
+ Restores last known relay state on startup.
+ GPIO pin and port are configurable via /etc/pi-relay-control.conf.

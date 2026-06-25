@@ -1,0 +1,5 @@
+5c162eba761d2413e111320d4aa00fbb  lib/systemd/system/pi-relay-control.service
+40c44e5b5680d65c382bcc757acb285c  usr/bin/relay_control
+8910d1b8bce888102a9a5e51f440127c  usr/share/doc/pi-relay-control/changelog.gz
+498ad94c6a975c707eecf110acf00cbb  usr/share/pi-relay-control/Makefile
+badf8baee2525d33d64c903f0666967d  usr/share/pi-relay-control/src/main.cpp

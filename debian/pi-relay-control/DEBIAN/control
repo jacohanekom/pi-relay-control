@@ -1,0 +1,12 @@
+Package: pi-relay-control
+Version: 1.0.0+202606031456
+Architecture: arm64
+Maintainer: baboonwatch
+Installed-Size: 94
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), liblgpio1 (>= 0.1.6.1), libstdc++6 (>= 5.2)
+Section: utils
+Priority: optional
+Description: GPIO Relay Control for Raspberry Pi 5
+ Controls a relay via GPIO with socket interface and state persistence.
+ Restores last known relay state on startup.
+ GPIO pin and port are configurable via /etc/pi-relay-control.conf.
